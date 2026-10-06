@@ -5,6 +5,7 @@ void setup() {
 //Hello J and J
 
 // Annat
+// Någonting
 void loop() {
   // put your main code here, to run repeatedly:
 
