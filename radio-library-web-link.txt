@@ -1,0 +1,1 @@
+https://learn.adafruit.com/feather-rp2040-rfm69/using-the-rfm69-radio
