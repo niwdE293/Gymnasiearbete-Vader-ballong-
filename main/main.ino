@@ -13,7 +13,7 @@ void loop() {
 }
 
 
-gasSensorSetup() {
+void gasSensorSetup() {
   while (!Serial) { delay(10); } // Wait for serial console to open!
 
   Serial.println("SGP30 test");
@@ -32,7 +32,7 @@ gasSensorSetup() {
 }
 
 // DOESNT RETURN ANY VALUES CURRENTLY!!!
-getGasSensorMeasurements(){
+void getGasSensorMeasurements(){
   // If you have a temperature / humidity sensor, you can set the absolute humidity to enable the humditiy compensation for the air quality signals
   //float temperature = 22.1; // [°C]
   //float humidity = 45.2; // [%RH]
