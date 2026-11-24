@@ -63,3 +63,5 @@ uint32_t getAbsoluteHumidity(float temperature, float humidity) {
     const uint32_t absoluteHumidityScaled = static_cast<uint32_t>(1000.0f * absoluteHumidity); // [mg/m^3]
     return absoluteHumidityScaled;
 }
+
+
